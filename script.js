@@ -1,31 +1,3 @@
-// var name = "jack";
-// var age = 23;
-
-// var message = "Hi, my name is " + name + " and I am " + age + " years old!";
-
-// console.log(message);
-
-// var length1 = 15;
-// var width1 = 10;
-// var area1 = length1 * width1;
-
-// var lenght2 = 12;
-// var width2 = 14;
-
-// console.log(area1);
-
-// function area(length, width) {
-// 	return length * width;
-// }
-
-// var rectanglesAreas = []
-// rectanglesAreas.push(area(10,15));
-// rectanglesAreas.push(area(14,2));
-// rectanglesAreas.push(area(4,5));
-
-// console.log(rectanglesAreas)
-
-
 // ******************************* 
 // START HERE IF YOU WANT AN EASIER STARTING POINT FOR THIS ASSIGNMENT
 // *******************************
@@ -38,15 +10,15 @@
 // or "j", otherwise, the program should say "Good Bye". So, the final output
 // on the console should look like this:
 /*
-Hello Dare
-Hello Yaakhov
+Hello Yaakov
 Good Bye John
-Hello Breed
+Good Bye Jen
 Good Bye Jason
-Hello Brainy
+Hello Paul
 Hello Frank
-Good Bye jerry
-Hello Philip
+Hello Larry
+Hello Paula
+Hello Laura
 Good Bye Jim
 WARNING!!! WARNING!!!
 The code does NOT currently work! It is YOUR job to make it work
@@ -58,7 +30,7 @@ WARNING!!! WARNING!!!
 
 (function () {
 
-var names = ["Dare","Yaakhov", "John", "Breed", "Jason", "Brainy", "Frank", "jerry", "Philip", "Jim"];
+var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
 for (var i = 0; i < names.length; i++) {
   var firstLetter = names[i].charAt(0).toLowerCase();
